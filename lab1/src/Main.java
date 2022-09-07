@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Bookshelf bookshelf = new Bookshelf();
+        bookshelf.open();
+        bookshelf.getBook();
+        bookshelf.close();
     }
 }
